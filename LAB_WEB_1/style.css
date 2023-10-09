@@ -1,0 +1,62 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+.back {
+    background-image: url(background-image.jpg);
+}
+
+table {
+    width: 100%;
+    background-color: rgb(197, 241, 126);
+
+}
+
+table,
+th,
+td,
+tr {
+    border: 1px solid rgb(127, 23, 23);
+}
+
+.search-input {
+    margin-top: 10px;
+    height: 40px;
+    width: 95%;
+    font-size: 24;
+}
+
+.lupa {
+    margin-top: 10px;
+}
+
+
+.page {
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: rgb(27, 93, 146);
+    padding: 15px;
+}
+
+th:hover {
+    background-color: ghostwhite;
+}
+
+.magnuscarslen_openings {
+
+    height: auto;
+    width: 100%;
+    background-color: rgb(146, 125, 201);
+}
+
+.top-openings {
+
+    height: auto;
+    width: 100%;
+    background-color: rgb(159, 90, 112);
+}
